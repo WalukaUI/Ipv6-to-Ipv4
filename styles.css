@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 8%;
+}
+#datainput{
+    width: 30%;
+    margin-top: 10%;
+}
