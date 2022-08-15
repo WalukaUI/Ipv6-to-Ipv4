@@ -1,7 +1,8 @@
 let datainput = document.getElementById("datainput");
 let dataoutput = document.getElementById("dataoutput");
 let converterbtn = document.getElementById("converterbtn");
-
+let animationImg = document.getElementById("animation");
+animationImg.style.display = "none";
 function process(splitedIp) {
   let newIp = [];
 
@@ -38,8 +39,14 @@ function process(splitedIp) {
       newIp.push(newPart);
     }
   }
+  animationImg.style.display = "inline-block";
+  animationImg.src =
+    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif";
   let result = newIp.join("");
-  dataoutput.innerHTML = result;
+  setTimeout(() => {
+    animationImg.style.display = "none";
+    dataoutput.innerHTML = result;
+  }, 2000);
 }
 
 converterbtn.addEventListener("click", (e) => {

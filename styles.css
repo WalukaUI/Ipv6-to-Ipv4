@@ -5,5 +5,24 @@ body{
 }
 #datainput{
     width: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+.binput{
+    width: 70%;
+}
+h1{
+    font-family: Baskerville, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    color: #589017;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+        
+}
+div{
+    margin: 1%;
+}
+img{
+    width: 5%;
 }
