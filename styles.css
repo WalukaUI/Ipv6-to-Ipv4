@@ -26,3 +26,12 @@ div{
 img{
     width: 5%;
 }
+h2{
+    font-family: Baskerville, Times, 'Times New Roman', serif;
+        font-size: 75px;
+        color: #571657;
+        font-variant: small-caps;
+        text-align: center;
+        font-weight: bold;
+        padding: 15px 0px 15px 0px;
+}
