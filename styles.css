@@ -4,15 +4,13 @@ body{
     padding: 8%;
 }
 #datainput{
-    width: 30%;
+    width: 40%;
     margin-top: 5%;
 }
-.binput{
-    width: 70%;
-}
+
 h1{
     font-family: Baskerville, Times, 'Times New Roman', serif;
-    font-size: 75px;
+    font-size: 4rem;
     color: #589017;
     font-variant: small-caps;
     text-align: center;
@@ -37,4 +35,11 @@ h2{
 }
 h4{
     color: red;
+}
+
+@media only screen and (max-width: 900px) {
+#datainput {
+        width: 90%;
+        margin-top: 5%;
+    }
 }
