@@ -4,7 +4,7 @@ let converterbtn = document.getElementById("converterbtn");
 let animationImg = document.getElementById("animation");
 let dataoutputh4 = document.getElementById("dataoutputh4");
 let errorMessage =
-  "Please enter valid Ipv6 address. only allowed English Characters, Numbers and : only.";
+  "Please enter valid Ipv6 address. only allowed English Characters, Numbers and : ";
 animationImg.style.display = "none";
 
 function process(splitedIp) {
